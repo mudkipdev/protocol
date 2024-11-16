@@ -9,15 +9,17 @@
    - Java: [`ServerSocket`](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/net/ServerSocket.html), the [Netty](https://netty.io) library is also frequently used.
    - Rust: [`TcpListener`](https://doc.rust-lang.org/std/net/struct.TcpListener.html)
    - Go: [`net.Listen`](https://pkg.go.dev/net#Listen)
+   - Node.js: [`net.Server`](https://nodejs.org/api/net.html#class-netserver)
    - Python: [`socket`](https://docs.python.org/3/howto/sockets.html#creating-a-socket)
    - C++: no clue lol
-3. Write a utility function to read [VarInts](/other/data-types.md#varint) from a buffer.
-4. Write code to read and write packet frames from the connection.
+3. Depending on the language you chose, there may be a library that does the boring work of packets for you. Whether or not you choose to use a library is up to you.
+4. Write a utility function to read [VarInts](/other/data-types.md#varint) from a buffer.
+5. Write code to read and write packet frames from the connection.
     - Length (VarInt) - the size of the packet ID and data combined
     - ID (VarInt) - the ID of the packet
     - Data - the packet payload
-5. Add code to look up packet IDs.
-6. Make a system to encode/decode packets. The implementation of this is up to you.
+6. Add code to look up packet IDs.
+7. Make a system to encode/decode packets. The implementation of this is up to you.
 
 ## Handling Packets
 1. Write a basic loop that will receive packets and look up their ID.
