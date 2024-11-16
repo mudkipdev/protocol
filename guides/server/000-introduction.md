@@ -12,7 +12,7 @@
    - Node.js: [`net.Server`](https://nodejs.org/api/net.html#class-netserver)
    - Python: [`socket`](https://docs.python.org/3/howto/sockets.html#creating-a-socket)
    - C++: no clue lol
-3. Depending on the language you chose, there may be a library that does the boring work of packets for you. Whether or not you choose to use a library is up to you.
+3. Depending on the language you chose, there may be a library that does the boring work of packets for you. Whether or not you choose one is up to you.
 4. Write a utility function to read [VarInts](/other/data-types.md#varint) from a buffer.
 5. Write code to read and write packet frames from the connection.
     - Length (VarInt) - the size of the packet ID and data combined
