@@ -5,7 +5,7 @@
 
 ## Creating a TCP Server
 1. Create a new project in your preferred language.
-2. Listen for and accept TCP connections on port `25565`. Documentation in a few common languages are listed below.
+2. Listen for and accept TCP connections on port `25565`. Documentation in a few common languages is listed below.
    - Java: [`ServerSocket`](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/net/ServerSocket.html), the [Netty](https://netty.io) library is also frequently used.
    - Rust: [`TcpListener`](https://doc.rust-lang.org/std/net/struct.TcpListener.html)
    - Go: [`net.Listen`](https://pkg.go.dev/net#Listen)
