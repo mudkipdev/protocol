@@ -3,7 +3,7 @@ Describes the most common data types in the Minecraft protocol.
 
 | Name | Size | Description |
 | ---- | ---- | ----------- |
-| Optional T | 1 byte + length of T | A `true` value followed by T if it is present, otherwise `false`. |
+| Optional T | 1 byte + size of T | A `true` value followed by T if it is present, otherwise `false`. |
 | List of T | VarInt + length of sequence | A sequence of T prefixed by the list length as a VarInt. |
 | Boolean | 1 byte | `true` is encoded as `0x01`, any other value is `false`.
 | Byte | 1 byte | (Un)signed 8-bit integer. |
