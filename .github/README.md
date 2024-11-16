@@ -6,6 +6,7 @@ This wiki documents the Minecraft networking protocol to help with creating cust
 > Pre-release versions are documented on the [snapshot branch](https://github.com/mudkipdev/protocol/tree/snapshot).
 
 ## Pages
+- [Data Types](/other/data-types.md)
 - [Packet Documentation](/packets)
 - [How to Write a Client](/guides/client/000-introduction.md)
 - [How to Write a Server](/guides/server/000-introduction.md)
