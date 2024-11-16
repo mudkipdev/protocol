@@ -18,5 +18,11 @@ Describes the most common data types in the Minecraft protocol.
 | Text | - | An NBT or JSON encoded [text component](https://minecraft.wiki/w/Raw_JSON_text_format) value. |
 | Identifier | - | [Resource location](https://minecraft.wiki/w/Resource_location) encoded as a string. |
 
+## VarInt
+Under construction.
+
+## VarLong
+Under construction.
+
 > [!WARNING]
 > This list is not complete. See the [wiki.vg](https://wiki.vg/Protocol#Data_types) page for more info.
