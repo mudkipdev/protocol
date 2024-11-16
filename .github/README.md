@@ -1,9 +1,9 @@
 # Minecraft Protocol Wiki
 This wiki documents the Minecraft networking protocol to help with creating custom clients or servers.
 
-> [!NOTE]
-> This wiki only documents protocol version `768`, also known as 1.21.3.
-> Pre-release versions are documented on the [snapshot branch](https://github.com/mudkipdev/protocol/tree/snapshot).
+> [!WARNING]
+> You are on the `snapshot` branch, which will not be started until all packets are completed.
+> [Take me back to the `main` branch.](https://github.com/mudkipdev/protocol/tree/main)
 
 <hr>
 
