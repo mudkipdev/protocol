@@ -8,8 +8,8 @@ This packet can be sent by the server to create, delete, or modify a scoreboard 
 ## Clientbound
 | Field  | Type   | Description          |
 | ------ | ------ | -------------------- |
-| Name   | String | The team identifier. |
-| Action | Byte   | The [action](#actions) to perform on the team. |
+| Name | String | The team identifier. |
+| Action | Byte | The [action](#actions) to perform on the team. |
 | Data | [Action Data](#actions) | The parameters of the action. |
 
 <details>
@@ -17,7 +17,7 @@ This packet can be sent by the server to create, delete, or modify a scoreboard 
 
 | Field                      | Value   | 
 | -------------------------- | ------- |
-| Name | "`admins`"   |
+| Name | "`admins`" |
 | Action | `0x03` |
 | Members (length) | `2` |
 | Member #1 | "`Notch`" |
