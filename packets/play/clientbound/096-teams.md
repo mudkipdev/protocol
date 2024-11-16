@@ -5,7 +5,7 @@
 
 This packet can be sent by the server to create, delete, or modify a scoreboard team. It is also used to add and remove players from a team.
 
-## Clientbound
+## Fields
 | Field  | Type   | Description          |
 | ------ | ------ | -------------------- |
 | Name | String | The team identifier. |

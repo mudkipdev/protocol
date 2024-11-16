@@ -1,5 +1,8 @@
 # Handshake
 The initial state used to identify the client version.
 
-> [!NOTE]
-> There is only [one packet](serverbound/000-handshake.md) in this state.
+## Table of Contents
+### Serverbound
+| ID (hex) | ID (decimal) | Name | Identifier |
+| -------- | ------------ | ---- | ---------- |
+| `0x00` | `0` | [Handshake](serverbound/000-handshake.md) | `minecraft:intention` |

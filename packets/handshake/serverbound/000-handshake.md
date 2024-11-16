@@ -8,7 +8,7 @@ Sent by the client to let the server know that it is connecting.
 > [!NOTE]
 > The latest protocol version for Minecraft version 1.21.3 is `768`.
 
-## Serverbound
+## Fields
 | Field | Type | Description |
 | ----- | ---- | ----------- |
 | Protocol Version | VarInt | The networking version to determine client/server compatibility. |

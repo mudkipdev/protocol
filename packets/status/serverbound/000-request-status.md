@@ -5,5 +5,5 @@
 
 Sent by the client to request a server list payload from the server.
 
-## Serverbound
+## Fields
 (no fields)
