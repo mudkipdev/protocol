@@ -9,9 +9,7 @@ The Cookie Response packet is sent by clients in response to a Cookie Request fr
 | Field | Type | Description |
 | ----- | ---- | ----------- |
 | Key | Identifier | The identifier of the cookie |
-| Has Payload | Boolean | The payload is only present if the cookie exists on the client |
-| Payload Length | Optional VarInt | Length of the following byte array |
-| Payload | Optional Byte Array (5120) | The data of the cookie, if any |
+| Payload | Optional List of Byte | The data of the cookie. |
 
 ## Data Limitations
 The Notchian server enforces a strict 5 kilobyte size limit on cookie response payloads. This limitation helps prevent potential abuse of the cookie system while still allowing sufficient space for typical session data. Server implementations should validate payload sizes to maintain consistency with vanilla behavior.

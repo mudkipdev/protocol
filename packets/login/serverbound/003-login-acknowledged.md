@@ -6,7 +6,7 @@
 The Login Acknowledged packet serves as the final step in the login sequence, sent by the client to confirm receipt of the Login Success packet. Upon sending this packet, the connection state transitions to configuration, marking the end of the login phase and the beginning of game configuration.
 
 ## Fields
-This packet contains no fields, functioning purely as a state transition signal.
+(no fields)
 
 ## Protocol Flow
 When a client receives a Login Success packet, it processes the provided profile information and then sends this acknowledgment. The absence of fields in this packet emphasizes its role as a pure state transition marker. The server must wait for this acknowledgment before proceeding with the configuration phase of the connection.

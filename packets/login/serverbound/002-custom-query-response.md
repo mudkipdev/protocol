@@ -10,7 +10,7 @@ The Custom Query Response packet is sent by clients in response to a Login Plugi
 | ----- | ---- | ----------- |
 | Message ID | VarInt | Should match ID from server |
 | Successful | Boolean | true if the client understood the request, false otherwise |
-| Data | Optional Byte Array (1048576) | Any data, depending on the channel |
+| Data | Optional List of Byte | Any data, depending on the channel |
 
 ## Response Behavior
 When a client receives a plugin request, it must respond with this packet, regardless of whether it understands the request. The Message ID field must match the ID received in the request, allowing servers to correlate requests and responses. The Successful field indicates whether the client recognized and could process the plugin channel specified in the request.

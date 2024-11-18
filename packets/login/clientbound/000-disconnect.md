@@ -8,7 +8,7 @@ Serves as the server's mechanism for terminating a connection during the login p
 ## Fields
 | Field  | Type | Description |
 | ------ | ---- | ----------- |
-| Reason | JSON Text Component | The reason why the player was disconnected. |
+| Reason | Text (JSON) | The reason displayed on the disconnect screen. |
 
 ## Usage
 The reason field supports Minecraft's full text formatting system, allowing servers to provide rich, formatted text explaining the disconnection. Common scenarios include authentication failures, server maintenance, or version mismatches. Servers typically log these disconnect reasons for administrative purposes. Reasons may include:

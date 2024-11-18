@@ -8,10 +8,8 @@ The Encryption Response packet is the client's reply to the server's Encryption 
 ## Fields
 | Field | Type | Description |
 | ----- | ---- | ----------- |
-| Shared Secret Length | VarInt | Length of Shared Secret |
-| Shared Secret | Byte Array | Shared Secret value, encrypted with the server's public key |
-| Verify Token Length | VarInt | Length of Verify Token |
-| Verify Token | Byte Array | Verify Token value, encrypted with the same public key as the shared secret |
+| Shared Secret | List of Byte | The shared secret encrypted with the server's public key. |
+| Verify Token | List of Byte | The verify token encrypted with the same public key as the shared secret. |
 
 ## Encryption Process
 Upon receiving the server's public key and verify token in the Encryption Request packet, the client generates a random 16-byte shared secret. This secret, along with the verify token received from the server, is encrypted using the server's public key through RSA encryption. The encrypted values are then sent back to the server in this packet.
