@@ -1,9 +1,8 @@
-# Login Acknowledged (0x03)
+# Login Acknowledged
 | Direction   | State | ID     | Identifier                    |
 | ----------- | ----- | ------ | ---------------------------- |
 | Serverbound | Login | `0x03` | `minecraft:login_acknowledged` |
 
-## Description
 The Login Acknowledged packet serves as the final step in the login sequence, sent by the client to confirm receipt of the Login Success packet. Upon sending this packet, the connection state transitions to configuration, marking the end of the login phase and the beginning of game configuration.
 
 ## Fields

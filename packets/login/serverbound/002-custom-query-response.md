@@ -1,10 +1,9 @@
-# Login Plugin Response (0x02)
-| Direction   | State | ID     | Identifier                        |
-| ----------- | ----- | ------ | -------------------------------- |
-| Serverbound | Login | `0x02` | `minecraft:custom_query_answer`   |
+# Custom Query Response
+| Direction   | State | ID     | Identifier                      |
+| ----------- | ----- | ------ | ------------------------------- |
+| Serverbound | Login | `0x02` | `minecraft:custom_query_answer` |
 
-## Description
-The Login Plugin Response packet is sent by clients in response to a Login Plugin Request from the server. It forms part of the extensible login sequence, allowing for custom handshaking processes beyond the standard Minecraft login flow. This system enables servers to implement additional verification or data collection steps during login.
+The Custom Query Response packet is sent by clients in response to a Login Plugin Request from the server. It forms part of the extensible login sequence, allowing for custom handshaking processes beyond the standard Minecraft login flow. This system enables servers to implement additional verification or data collection steps during login.
 
 ## Fields
 | Field | Type | Description |

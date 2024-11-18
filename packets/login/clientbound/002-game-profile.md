@@ -1,10 +1,9 @@
-# Login Success (0x02)
+# Game Profile
 | Direction   | State | ID     | Identifier                |
 | ----------- | ----- | ------ | ------------------------ |
 | Clientbound | Login | `0x02` | `minecraft:game_profile` |
 
-## Description
-The Login Success packet represents the final stage of the login sequence. When received, it signals to the client that authentication and encryption have been successfully established and the client can proceed to join the game world. This packet carries crucial information about the player's identity and appearance.
+The Game Profile packet represents the final stage of the login sequence. When received, it signals to the client that authentication and encryption have been successfully established and the client can proceed to join the game world. This packet carries crucial information about the player's identity and appearance.
 
 ## Fields
 | Field | Type | Description |

@@ -1,9 +1,8 @@
-# Cookie Response (0x04)
-| Direction   | State | ID     | Identifier                    |
-| ----------- | ----- | ------ | ---------------------------- |
-| Serverbound | Login | `0x04` | `minecraft:cookie_response`   |
+# Cookie Response
+| Direction   | State | ID     | Identifier                  |
+| ----------- | ----- | ------ | --------------------------- |
+| Serverbound | Login | `0x04` | `minecraft:cookie_response` |
 
-## Description
 The Cookie Response packet is sent by clients in response to a Cookie Request from the server. It provides a mechanism for transmitting stored cookie data back to the server during the login process. The Notchian server implements strict size limitations on these responses to prevent abuse.
 
 ## Fields

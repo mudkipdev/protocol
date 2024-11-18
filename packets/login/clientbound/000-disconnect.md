@@ -1,10 +1,9 @@
-# Login Disconnect (0x00)
-| Direction   | State | ID     | Identifier               |
-| ----------- | ----- | ------ | ----------------------- |
+# Disconnect
+| Direction   | State | ID     | Identifier                   |
+| ----------- | ----- | ------ | ---------------------------- |
 | Clientbound | Login | `0x00` | `minecraft:login_disconnect` |
 
-## Description
-The Login Disconnect packet serves as the server's mechanism for terminating a connection during the login phase. It can be sent at any point during the login sequence, allowing servers to reject connections before they are fully established. When received, the client immediately closes the connection and displays the provided reason to the user.
+Serves as the server's mechanism for terminating a connection during the login phase. It can be sent at any point during the login sequence, allowing servers to reject connections before they are fully established. When received, the client immediately closes the connection and displays the provided reason to the user.
 
 ## Fields
 | Field  | Type | Description |

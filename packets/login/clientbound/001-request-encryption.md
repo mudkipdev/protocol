@@ -1,10 +1,9 @@
-# Encryption Request (0x01)
+# Request Encryption
 | Direction   | State | ID     | Identifier        |
-| ----------- | ----- | ------ | ---------------- |
+| ----------- | ----- | ------ | ----------------- |
 | Clientbound | Login | `0x01` | `minecraft:hello` |
 
-## Description
-The Encryption Request packet initiates the secure connection handshake between client and server. This packet marks the beginning of Minecraft's session encryption protocol, which uses RSA encryption with a 1024-bit key for the initial key exchange, followed by AES symmetric encryption for the remainder of the session.
+The Request Encryption packet initiates the secure connection handshake between client and server. This packet marks the beginning of Minecraft's session encryption protocol, which uses RSA encryption with a 1024-bit key for the initial key exchange, followed by AES symmetric encryption for the remainder of the session.
 
 ## Fields
 | Field | Type | Description |

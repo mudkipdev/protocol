@@ -1,10 +1,9 @@
-# Login Plugin Request (0x04)
+# Custom Query
 | Direction   | State | ID     | Identifier               |
-| ----------- | ----- | ------ | ----------------------- |
+| ----------- | ----- | ------ | ------------------------ |
 | Clientbound | Login | `0x04` | `minecraft:custom_query` |
 
-## Description
-The Login Plugin Request packet enables servers to implement custom handshaking flows during the login process. Unlike plugin messages during gameplay, these login-phase messages follow a strict request-response pattern. This system allows servers to gather additional information or perform custom verification before allowing a client to complete the login process.
+The Custom Query packet enables servers to implement custom handshaking flows during the login process. Unlike plugin messages during gameplay, these login-phase messages follow a strict request-response pattern. This system allows servers to gather additional information or perform custom verification before allowing a client to complete the login process.
 
 ## Fields
 | Field | Type | Description |

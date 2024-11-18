@@ -1,9 +1,8 @@
-# Encryption Response (0x01)
-| Direction   | State | ID     | Identifier       |
+# Encryption Response
+| Direction   | State | ID     | Identifier      |
 | ----------- | ----- | ------ | --------------- |
 | Serverbound | Login | `0x01` | `minecraft:key` |
 
-## Description
 The Encryption Response packet is the client's reply to the server's Encryption Request during the login sequence. It contains the encrypted shared secret and verification token, establishing the basis for secure communication between client and server.
 
 ## Fields

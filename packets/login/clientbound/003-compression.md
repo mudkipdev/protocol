@@ -1,10 +1,9 @@
-# Set Compression (0x03)
+# Compression
 | Direction   | State | ID     | Identifier                    |
-| ----------- | ----- | ------ | ---------------------------- |
+| ----------- | ----- | ------ | ----------------------------- |
 | Clientbound | Login | `0x03` | `minecraft:login_compression` |
 
-## Description
-The Set Compression packet configures the network compression settings for the entire connection. Once enabled, all subsequent packets follow a compressed format using zlib compression. This packet must be sent before the Login Success packet if compression is desired.
+The compression packet configures the network compression settings for the entire connection. Once enabled, all subsequent packets follow a compressed format using zlib compression. This packet must be sent before the Login Success packet if compression is desired.
 
 ## Fields
 | Field | Type | Description |
